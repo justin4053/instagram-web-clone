@@ -103,7 +103,7 @@ function Modal() {
                 {selectedFile ? (
                   <img
                     src={selectedFile}
-                    onclick={() => setSelectedFile(null)}
+                    onClick={() => setSelectedFile(null)}
                     alt=""
                   />
                 ) : (
